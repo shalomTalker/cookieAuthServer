@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "start": "node ./bin/www",
-    "debug": "@powershell -Command $env:DEBUG='chatapp:*';nodemon ./bin/www"
+    "dev": "@powershell -Command $env:DEBUG='chatapp:*';nodemon ./bin/www"
   },
   "dependencies": {
     "bcrypt": "^3.0.6",
